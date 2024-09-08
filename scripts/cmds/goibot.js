@@ -56,11 +56,8 @@ config: {
        };
 
        if ((event.body.toLowerCase() == "owner") || (event.body.toLowerCase() == "Admin kon hai")) {
-         return api.sendMessage("[𝐎𝐖𝐍𝐄𝐑:☞➸⃝★𝗢𝘄𝗻𝗲𝗿 + 𝗠𝗮𝗱𝗲 𝗕𝘆 ★
-✦🌸===『*★🌸===आदि बाबू✦
-★★᭄𝐈𝐍𝐒𝐓𝐀𝐆𝐑𝐀𝐌 𝐋𝐈𝐍𝐊 𝐌𝐄𝐑𝐄 𝐁𝐀𝐁𝐔 𝐊𝐀 :✦ https://www.instagram.com/aadi_singh__143?igsh=MXVneXZ6bzR4bHhvcg==  ✦ 
-𝐅𝐀𝐂𝐄𝐁𝐎𝐎𝐊 𝐋𝐈𝐍𝐊 𝐌𝐄𝐑𝐄 𝐁𝐀𝐁𝐔 𝐊𝐀 😁
- 𝐌𝐄𝐑𝐄 𝐁𝐎𝐒𝐒 𝐊𝐀 𝐋𝐔𝐊 😁😋 https://www.facebook.com/profile.php?id=100039840451887&mibextid=ZbWKwL", threadID);
+         return api.sendMessage("[𝐎𝐖𝐍𝐄𝐑:☞➸⃝★𝗢𝘄𝗻𝗲𝗿 + 𝗠𝗮𝗱𝗲 𝗕𝘆 ★✦🌸===『*★🌸===आदि बाबू✦
+", threadID);
        };
 
       if ((event.body.toLowerCase() == "🤦") || (event.body.toLowerCase() == "🙆")) {
