@@ -60,7 +60,7 @@ config: {
 ✦🌸===『*★🌸===आदि बाबू✦
 ★★᭄𝐈𝐍𝐒𝐓𝐀𝐆𝐑𝐀𝐌 𝐋𝐈𝐍𝐊 𝐌𝐄𝐑𝐄 𝐁𝐀𝐁𝐔 𝐊𝐀 :✦ https://www.instagram.com/aadi_singh__143?igsh=MXVneXZ6bzR4bHhvcg==  ✦ 
 𝐅𝐀𝐂𝐄𝐁𝐎𝐎𝐊 𝐋𝐈𝐍𝐊 𝐌𝐄𝐑𝐄 𝐁𝐀𝐁𝐔 𝐊𝐀 😁
- 𝐌𝐄𝐑𝐄 𝐁𝐎𝐒𝐒 𝐊𝐀 𝐋𝐔𝐊 😁😋 https://www.facebook.com/profile.php?id=100039840451887&mibextid=ZbWKwL`", threadID);
+ 𝐌𝐄𝐑𝐄 𝐁𝐎𝐒𝐒 𝐊𝐀 𝐋𝐔𝐊 😁😋 https://www.facebook.com/profile.php?id=100039840451887&mibextid=ZbWKwL", threadID);
        };
 
       if ((event.body.toLowerCase() == "🤦") || (event.body.toLowerCase() == "🙆")) {
@@ -140,7 +140,7 @@ config: {
        };
 
        if ((event.body.toLowerCase() == "Good night")) {
-         return api.sendMessage("", threadID);
+         return api.sendMessage("Good night babu Radhe Radhe", threadID);
        };
 
        if ((event.body.toLowerCase() == "Call aoo")) {
@@ -231,7 +231,7 @@ config: {
      return api.sendMessage("I Am Aadi's, An AI Based Messenger Chatbot.", threadID, messageID);
    };
 
-  if (event.body.indexOf("Bot") == 0 || (event.body.toLowerCase() == "bot") || (event.body.indexOf("BOT") == 0)) {
+  if (event.body.indexOf("Bot") == 0 || (event.body.toLowerCase() == "bot") || (event.body.indexOf("বট") == 0)) {
     var msg = {
       body: ` ${rand}`
     }
